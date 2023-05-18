@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding-top:800px;
+    text-align: center;
+}
+.profile{
+    width: 400px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(#ff9999 0%, #b3ffff 100%);
+    z-index: 9;
+}
+.parallex-inner{
+    display:table-cell;
+    vertical-align: middle;
+}
+.line{
+height:6px;
+width:70px;
+background-color: black;
+margin: 8px auto;
+}
+#bio{
+    font-family: cursive;
+    padding: 50px;
+
+}
+#name{
+    font-size: 50px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.menu{
+    position:fixed;
+    z-index: 10;
+    top: 10px;
+    right: 30px;
+    list-style: none;
+    cursor: pointer;
+    
+
+}
+.links{
+    float: left;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+a{
+    text-decoration: none;
+}
